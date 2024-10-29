@@ -39,4 +39,4 @@ A fictional tech company website created as a midterm project for a web developm
 Contributions are welcome! Feel free to open an issue or submit a pull request to improve this website.
 
 ## License
-This project is licensed under the MIT LoomLink Technology.
+This project is licensed under the LoomLink Technology.
