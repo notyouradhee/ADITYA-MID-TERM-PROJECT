@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LoomLink Technology - Innovating Blockchain Solutions">
+    <title>LoomLink Technology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <h1>LoomLink Technology</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Products/Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Welcome to LoomLink Technology</h2>
+            <p>Innovating blockchain solutions for the future of secure and transparent digital interactions.</p>
+            <button onclick="scrollToAbout()">Learn More</button>
+        </div>
+    </section>
+
+    
+<section id="about" class="section animate-on-scroll">
+    <div class="container">
+        <h2>Innovating Blockchain Solutions --LoomLink</h2>
+        <div class="about-grid">
+            <div class="about-item">
+                <h3>About Us</h3>
+                <p>LoomLink Technology is at the forefront of blockchain innovation, developing solutions that ensure secure,
+                transparent, and efficient digital transactions.</p>
+            </div>
+            <div class="about-item">
+                <h3>Our Mission</h3>
+                <p>We aim to provide cutting-edge blockchain technology that empowers businesses and individuals to embrace a decentralized, trustless world.</p>
+            </div>
+            <div class="about-item">
+                <h3>Our Team</h3>
+                <p>Our team consists of blockchain experts, developers, and innovators dedicated to creating impactful and secure technologies.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <section id="services" class="section animate-on-scroll">
+        <div class="container">
+            <h2>Our Products & Services</h2>
+            <ul>
+                <li><strong>Decentralized Ledger Solutions</strong> – Secure and transparent ledger systems for businesses.</li>
+                <li><strong>Smart Contract Development</strong> – Custom-built, automated contracts tailored to your needs.</li>
+                <li><strong>Blockchain Security Consulting</strong> – Expert guidance to protect your blockchain infrastructure.</li>
+                <li><strong>Interoperability Protocols</strong> – Seamless connection between various blockchain networks.</li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <section id="bitcoin-price" class="section animate-on-scroll">
+        <div class="container">
+            <h2>Current Bitcoin Price</h2>
+            <div id="btc-price">Loading...</div>g
+        </div>
+    </section>
+
+   
+    <section id="contact" class="section animate-on-scroll">
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <form action="https://formspree.io/f/mwpkvbrn" method="POST" id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+                </form>
+            
+        </div>
+    </section>
+
+  
+    <footer>
+        <p>&copy; 2024 LoomLink Technology | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
